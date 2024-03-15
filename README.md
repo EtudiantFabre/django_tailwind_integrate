@@ -1,4 +1,3 @@
-# django_tailwind_integrate
 Projet Django avec tailwind intégrée.
 
 # Commande à exécuter pour avoir un projet Django avec tailwind :
@@ -25,7 +24,7 @@ python -m pip install 'django-tailwind[reload]'
 
 {{ 
 INSTALLED_APPS = [
-  # other Django apps
+  **#other Django apps**
   'tailwind',
 ] 
 }}
@@ -40,7 +39,7 @@ python manage.py tailwind init
 
 {{ 
 INSTALLED_APPS = [
-  #other Django apps
+  **#other Django apps**
   'tailwind',
   'theme'
 ] 
@@ -57,7 +56,7 @@ python manage.py tailwind install
 
 {{ 
 INSTALLED_APPS = [
-  # other Django apps
+  **# other Django apps**
   'tailwind',
   'theme',
   'django_browser_reload'
