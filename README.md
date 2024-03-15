@@ -11,7 +11,7 @@ pip install Django
 ```
 
 #Installation de tailwind dans le projet :
-[Voici le lien](https://django-tailwind.readthedocs.io/en/latest/installation.html)
+[Documetation](https://django-tailwind.readthedocs.io/en/latest/installation.html)
 
 ## Commandes : installation & raffraichissement de page automatique
 
